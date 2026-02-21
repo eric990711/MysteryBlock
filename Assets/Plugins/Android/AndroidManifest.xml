@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.goticketspace.app.mysteryblock"
+    android:installLocation="auto"
+    android:versionName="2.0.0"
+    android:versionCode="10">
+
+  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="34" />
+
+  <supports-screens
+      android:smallScreens="true"
+      android:normalScreens="true"
+      android:largeScreens="true"
+      android:xlargeScreens="true"
+      android:anyDensity="true" />
+
+  <application
+      android:icon="@drawable/app_icon"
+      android:label="@string/app_name"
+      android:allowBackup="false"
+      android:requestLegacyExternalStorage="false">
+
+    <!-- Unity Main Activity -->
+    <activity
+        android:name="com.unity3d.player.UnityPlayerGameActivity"
+        android:label="@string/app_name"
+        android:exported="true"
+        android:launchMode="singleTask"
+        android:screenOrientation="portrait"
+        android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+        android:hardwareAccelerated="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+
+    <!-- Unity Ads Activity (API 34 required: android:exported) -->
+    <activity
+        android:name="com.unity3d.ads.adunit.AdUnitActivity"
+        android:exported="false"
+        android:hardwareAccelerated="true"
+        android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" />
+    <activity
+        android:name="com.unity3d.ads.adunit.AdUnitTransparentActivity"
+        android:exported="false"
+        android:hardwareAccelerated="true"
+        android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" />
+    <activity
+        android:name="com.unity3d.ads.adunit.AdUnitTransparentSoftwareActivity"
+        android:exported="false"
+        android:hardwareAccelerated="false"
+        android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" />
+    <activity
+        android:name="com.unity3d.ads.adunit.AdUnitSoftwareActivity"
+        android:exported="false"
+        android:hardwareAccelerated="false"
+        android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" />
+
+  </application>
+
+  <uses-feature android:glEsVersion="0x00020000" />
+  <uses-feature android:name="android.hardware.sensor.accelerometer" />
+  <uses-feature android:name="android.hardware.touchscreen" />
+  <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false" />
+  <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false" />
+
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <!-- Android 13+ 알림 권한 (광고에 필요할 수 있음) -->
+  <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+</manifest>

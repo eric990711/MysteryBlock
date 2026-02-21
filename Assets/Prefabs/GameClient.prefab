@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: GameClient
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.0061245, y: 21.5983086, z: -29.2192936}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6054c4a8aeb21344e817f70a319b9c1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mGameMBState: 0
+  mPause: 0
+  mbBGMSound: 0
+  mbEffectSound: 0
+  mbTilt: 0
+  mEffBomb: {fileID: 0}
+  mEffBomb1: {fileID: 0}
+  mEffBomb2: {fileID: 0}
+  mEffBomb3: {fileID: 0}
+  mEffSpark: {fileID: 0}
+  mEffBlockBox: {fileID: 0}
+  mEffRandomBox: {fileID: 0}
+  mBlock: {fileID: 0}
+  mLobbyBGM: {fileID: 0}
+  mMysteryBGM: {fileID: 0}
+  mSnd_Zoomin: {fileID: 8300000, guid: afa7e98205e79a849be353d9d3f8a948, type: 3}
+  mSnd_ZoomOut: {fileID: 8300000, guid: 43963e824363bae4aaabbd24e2c63b33, type: 3}
+  mSnd_Win: {fileID: 8300000, guid: 4b8396eaaa0773542bed11281a9f34de, type: 3}
+  mSnd_ReadGo: {fileID: 8300000, guid: 4ee2e9611473004428553f7863dea8b0, type: 3}
+  mSnd_MBlock: {fileID: 8300000, guid: fe73d39409ee4cb40b5aa25967ac95da, type: 3}
+  mSnd_Lose: {fileID: 8300000, guid: fce58399ba8120a42a92805a3ced6bed, type: 3}
+  mSnd_InsertCoin: {fileID: 8300000, guid: cbcf569dcdf82764ab0b61585d1347e4, type: 3}
+  mSnd_InsertCoinx2: {fileID: 8300000, guid: b143306e89a4ede49919f58ec6b6f79f, type: 3}
+  mSnd_FailDrop: {fileID: 8300000, guid: 4d2952848e7cc1f41b8afb7a7f945d3a, type: 3}
+  mSnd_Button: {fileID: 8300000, guid: e948bb0beab430f47b15823ec6d6c49d, type: 3}
+  mSnd_BlockDrop: {fileID: 0}
+  mSnd_LevelSuccess: {fileID: 0}
+  mSnd_Ticketing: {fileID: 0}
+  mUserTicket: 0
+  mUserCoin: 10
+  mMachineGrade: 64000000c80000002c010000
+  mBlockSpeed: .200000003
+  mDevTest: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

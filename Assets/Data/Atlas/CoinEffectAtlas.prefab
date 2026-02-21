@@ -1,0 +1,526 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: CoinEffectAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 7c3c1a1c8c6732448bc5c8a4b2991246, type: 2}
+  mSprites:
+  - name: InsertContParticles_00
+    x: 26
+    y: 1020
+    width: 4
+    height: 4
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 65
+    paddingRight: 59
+    paddingTop: 60
+    paddingBottom: 64
+  - name: InsertContParticles_01
+    x: 0
+    y: 940
+    width: 43
+    height: 45
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 46
+    paddingRight: 39
+    paddingTop: 39
+    paddingBottom: 44
+  - name: InsertContParticles_02
+    x: 0
+    y: 32
+    width: 72
+    height: 74
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 31
+    paddingRight: 25
+    paddingTop: 25
+    paddingBottom: 29
+  - name: InsertContParticles_03
+    x: 118
+    y: 629
+    width: 71
+    height: 69
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 32
+    paddingRight: 25
+    paddingTop: 26
+    paddingBottom: 33
+  - name: InsertContParticles_04
+    x: 129
+    y: 336
+    width: 61
+    height: 59
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 37
+    paddingRight: 30
+    paddingTop: 31
+    paddingBottom: 38
+  - name: InsertContParticles_05
+    x: 190
+    y: 629
+    width: 51
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 42
+    paddingRight: 35
+    paddingTop: 36
+    paddingBottom: 42
+  - name: InsertContParticles_06
+    x: 44
+    y: 966
+    width: 58
+    height: 58
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 38
+    paddingRight: 32
+    paddingTop: 32
+    paddingBottom: 38
+  - name: InsertContParticles_07
+    x: 190
+    y: 680
+    width: 64
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 35
+    paddingRight: 29
+    paddingTop: 30
+    paddingBottom: 35
+  - name: InsertContParticles_08
+    x: 240
+    y: 953
+    width: 73
+    height: 71
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 30
+    paddingRight: 25
+    paddingTop: 26
+    paddingBottom: 31
+  - name: InsertContParticles_09
+    x: 73
+    y: 1
+    width: 79
+    height: 78
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 27
+    paddingRight: 22
+    paddingTop: 23
+    paddingBottom: 27
+  - name: InsertContParticles_10
+    x: 128
+    y: 744
+    width: 86
+    height: 85
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 23
+    paddingRight: 19
+    paddingTop: 19
+    paddingBottom: 24
+  - name: InsertContParticles_11
+    x: 358
+    y: 818
+    width: 91
+    height: 91
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 20
+    paddingRight: 17
+    paddingTop: 17
+    paddingBottom: 20
+  - name: InsertContParticles_12
+    x: 0
+    y: 107
+    width: 96
+    height: 96
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 17
+    paddingRight: 15
+    paddingTop: 14
+    paddingBottom: 18
+  - name: InsertContParticles_13
+    x: 257
+    y: 572
+    width: 99
+    height: 102
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 15
+    paddingRight: 14
+    paddingTop: 11
+    paddingBottom: 15
+  - name: InsertContParticles_14
+    x: 129
+    y: 396
+    width: 104
+    height: 106
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 12
+    paddingTop: 9
+    paddingBottom: 13
+  - name: InsertContParticles_15
+    x: 352
+    y: 461
+    width: 107
+    height: 110
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 11
+    paddingTop: 7
+    paddingBottom: 11
+  - name: InsertContParticles_16
+    x: 0
+    y: 825
+    width: 110
+    height: 114
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 10
+    paddingTop: 5
+    paddingBottom: 9
+  - name: InsertContParticles_17
+    x: 126
+    y: 211
+    width: 114
+    height: 117
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 8
+    paddingTop: 4
+    paddingBottom: 7
+  - name: InsertContParticles_18
+    x: 0
+    y: 579
+    width: 117
+    height: 119
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 7
+    paddingTop: 3
+    paddingBottom: 6
+  - name: InsertContParticles_19
+    x: 255
+    y: 675
+    width: 120
+    height: 121
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 5
+    paddingTop: 2
+    paddingBottom: 5
+  - name: InsertContParticles_20
+    x: 97
+    y: 80
+    width: 122
+    height: 123
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 4
+    paddingTop: 1
+    paddingBottom: 4
+  - name: InsertContParticles_21
+    x: 241
+    y: 265
+    width: 124
+    height: 124
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 3
+    paddingTop: 1
+    paddingBottom: 3
+  - name: InsertContParticles_22
+    x: 0
+    y: 204
+    width: 125
+    height: 124
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 2
+    paddingTop: 1
+    paddingBottom: 3
+  - name: InsertContParticles_23
+    x: 0
+    y: 453
+    width: 127
+    height: 125
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 2
+  - name: InsertContParticles_24
+    x: 0
+    y: 699
+    width: 127
+    height: 125
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 2
+  - name: InsertContParticles_25
+    x: 220
+    y: 85
+    width: 128
+    height: 125
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 2
+  - name: InsertContParticles_26
+    x: 128
+    y: 503
+    width: 128
+    height: 125
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 2
+  - name: InsertContParticles_27
+    x: 0
+    y: 329
+    width: 128
+    height: 123
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 3
+  - name: InsertContParticles_28
+    x: 358
+    y: 910
+    width: 128
+    height: 114
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 11
+    paddingBottom: 3
+  - name: InsertContParticles_29
+    x: 111
+    y: 911
+    width: 128
+    height: 113
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 12
+    paddingBottom: 3
+  - name: InsertContParticles_30
+    x: 229
+    y: 797
+    width: 128
+    height: 113
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 11
+    paddingBottom: 4
+  - name: InsertContParticles_31
+    x: 234
+    y: 390
+    width: 117
+    height: 112
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 1
+    paddingTop: 12
+    paddingBottom: 4
+  - name: InsertContParticles_32
+    x: 111
+    y: 830
+    width: 117
+    height: 80
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 1
+    paddingTop: 35
+    paddingBottom: 13
+  - name: InsertContParticles_33
+    x: 0
+    y: 986
+    width: 25
+    height: 38
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 52
+    paddingRight: 51
+    paddingTop: 46
+    paddingBottom: 44
+  - name: InsertContParticles_34
+    x: 31
+    y: 987
+    width: 9
+    height: 37
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 68
+    paddingRight: 51
+    paddingTop: 46
+    paddingBottom: 45
+  - name: InsertContParticles_35
+    x: 111
+    y: 825
+    width: 3
+    height: 4
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 68
+    paddingRight: 57
+    paddingTop: 71
+    paddingBottom: 53
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

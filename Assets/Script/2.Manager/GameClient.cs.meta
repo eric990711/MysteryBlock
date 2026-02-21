@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 6054c4a8aeb21344e817f70a319b9c1d
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - mEffBomb: {instanceID: 0}
+  - mEffBomb1: {instanceID: 0}
+  - mEffBomb2: {instanceID: 0}
+  - mEffBomb3: {instanceID: 0}
+  - mEffBlockBox: {instanceID: 0}
+  - mEffRandomBox: {instanceID: 0}
+  - mBlock: {instanceID: 0}
+  - mLobbyBGM: {instanceID: 0}
+  - mMysteryBGM: {instanceID: 0}
+  - mSnd_Zoomin: {fileID: 8300000, guid: afa7e98205e79a849be353d9d3f8a948, type: 3}
+  - mSnd_ZoomOut: {fileID: 8300000, guid: 43963e824363bae4aaabbd24e2c63b33, type: 3}
+  - mSnd_Win: {instanceID: 0}
+  - mSnd_ReadGo: {instanceID: 0}
+  - mSnd_MBlock: {instanceID: 0}
+  - mSnd_Lose: {instanceID: 0}
+  - mSnd_InsertCoin: {instanceID: 0}
+  - mSnd_InsertCoinx2: {instanceID: 0}
+  - mSnd_FailDrop: {instanceID: 0}
+  - mSnd_Button: {instanceID: 0}
+  - mSNd_BlockDrop: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

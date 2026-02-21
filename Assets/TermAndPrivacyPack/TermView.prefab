@@ -1,0 +1,1780 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400002}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: bg_Statement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400002}
+  - 114: {fileID: 11400004}
+  m_Layer: 0
+  m_Name: Icon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100004
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400004}
+  - 114: {fileID: 11400006}
+  m_Layer: 0
+  m_Name: Label
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100006
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400006}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400008}
+  - 114: {fileID: 11400008}
+  m_Layer: 0
+  m_Name: Term
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400010}
+  - 114: {fileID: 11400012}
+  - 114: {fileID: 11400010}
+  m_Layer: 0
+  m_Name: bg_Terms
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100012
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400012}
+  - 65: {fileID: 6500000}
+  - 114: {fileID: 11400014}
+  m_Layer: 0
+  m_Name: Outline
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100014
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400014}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100016
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400016}
+  - 114: {fileID: 11400016}
+  m_Layer: 0
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100018
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400018}
+  - 114: {fileID: 11400018}
+  m_Layer: 0
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100020
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400020}
+  - 114: {fileID: 11400022}
+  - 114: {fileID: 11400020}
+  m_Layer: 0
+  m_Name: Scroll View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100022
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400022}
+  - 65: {fileID: 6500002}
+  - 114: {fileID: 11400024}
+  m_Layer: 0
+  m_Name: Outline
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100024
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400024}
+  - 114: {fileID: 11400026}
+  m_Layer: 0
+  m_Name: Window
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400026}
+  - 114: {fileID: 11400032}
+  - 65: {fileID: 6500004}
+  - 114: {fileID: 11400030}
+  - 114: {fileID: 11400028}
+  m_Layer: 0
+  m_Name: AgreeBtn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400028}
+  - 114: {fileID: 11400034}
+  m_Layer: 0
+  m_Name: TermView
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &100030
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400030}
+  - 114: {fileID: 11400036}
+  m_Layer: 0
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400032}
+  - 114: {fileID: 11400040}
+  - 114: {fileID: 11400038}
+  m_Layer: 0
+  m_Name: bg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100034
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400034}
+  - 114: {fileID: 11400044}
+  - 114: {fileID: 11400042}
+  m_Layer: 0
+  m_Name: Scroll View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400036}
+  - 114: {fileID: 11400046}
+  m_Layer: 0
+  m_Name: State
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100038
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400038}
+  - 114: {fileID: 11400048}
+  m_Layer: 0
+  m_Name: Window
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100040
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400040}
+  - 114: {fileID: 11400050}
+  m_Layer: 0
+  m_Name: Label
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100042
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400042}
+  - 114: {fileID: 11400052}
+  m_Layer: 0
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100044
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400044}
+  - 114: {fileID: 11400054}
+  m_Layer: 0
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -203.060196, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400042}
+  m_Father: {fileID: 400028}
+--- !u!4 &400002
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -197.841537, y: 462.418243, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400030}
+  - {fileID: 400018}
+  m_Father: {fileID: 400028}
+--- !u!4 &400004
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -222, y: 1230.41638, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400006}
+--- !u!4 &400006
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1144.18005, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400004}
+  m_Father: {fileID: 400020}
+--- !u!4 &400008
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -260.06897, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400020}
+  - {fileID: 400024}
+  m_Father: {fileID: 400028}
+--- !u!4 &400010
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 180.677963, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400016}
+  m_Father: {fileID: 400028}
+--- !u!4 &400012
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -115, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400024}
+--- !u!4 &400014
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1144.18005, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400040}
+  m_Father: {fileID: 400034}
+--- !u!4 &400016
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100016}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 166.855927, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400010}
+--- !u!4 &400018
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 232.647415, y: 10.5135498, z: 0}
+  m_LocalScale: {x: 1.20000005, y: 1.20000005, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400002}
+--- !u!4 &400020
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1811.98999, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400006}
+  m_Father: {fileID: 400008}
+--- !u!4 &400022
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100022}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -115, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400038}
+--- !u!4 &400024
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100024}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 555, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400012}
+  m_Father: {fileID: 400008}
+--- !u!4 &400026
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100026}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.6916976, y: -415.994354, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400044}
+  m_Father: {fileID: 400028}
+--- !u!4 &400028
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -410.979889, y: -737.278503, z: 3.19767714e-05}
+  m_LocalScale: {x: 1.29269719, y: 1.29269719, z: -1.15050054}
+  m_Children:
+  - {fileID: 400032}
+  - {fileID: 400002}
+  - {fileID: 400010}
+  - {fileID: 400000}
+  - {fileID: 400026}
+  - {fileID: 400036}
+  - {fileID: 400008}
+  m_Father: {fileID: 0}
+--- !u!4 &400030
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 174.180511, y: 51.3703308, z: 0}
+  m_LocalScale: {x: .999848902, y: .999848902, z: .999848902}
+  m_Children: []
+  m_Father: {fileID: 400002}
+--- !u!4 &400032
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100032}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400028}
+--- !u!4 &400034
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100034}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1811.98999, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400014}
+  m_Father: {fileID: 400036}
+--- !u!4 &400036
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100036}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -639.525818, z: 0}
+  m_LocalScale: {x: .999848902, y: .999848902, z: .999848902}
+  m_Children:
+  - {fileID: 400034}
+  - {fileID: 400038}
+  m_Father: {fileID: 400028}
+--- !u!4 &400038
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100038}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 555, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400022}
+  m_Father: {fileID: 400036}
+--- !u!4 &400040
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100040}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -222, y: 1230.41638, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400014}
+--- !u!4 &400042
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100042}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 166.855927, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400000}
+--- !u!4 &400044
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100044}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400026}
+--- !u!65 &6500000
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 724, y: 293.799988, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &6500002
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100022}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 724, y: 293.799988, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &6500004
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100026}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 214, y: 58, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a66f1c4dfe530a4fbcbe299dd25b06a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mLogin: {fileID: 0}
+  mTerms: {fileID: 0}
+  mstart: {fileID: 0}
+  m_inAcc: {fileID: 0}
+  m_inPass: {fileID: 0}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mWidth: 541
+  mHeight: 301
+  mDepth: 1
+  autoResizeBoxCollider: 0
+  mAtlas: {fileID: 11400000, guid: 29d0f3ba9c04f5e4ca6e80ea37d8d09c, type: 2}
+  mSpriteName: l_content_bg
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mWidth: 154
+  mHeight: 154
+  mDepth: 3
+  autoResizeBoxCollider: 0
+  mAtlas: {fileID: 0}
+  mSpriteName: Icon_OffRoad
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 0
+  mWidth: 470
+  mHeight: 6600
+  mDepth: 0
+  autoResizeBoxCollider: 0
+  keepCrispWhenShrunk: 1
+  mTrueTypeFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  mFont: {fileID: 0}
+  mText: "[Terms of Service]\r\nThese Terms of Service (\"Terms\") are a legal agreement
+    between Ticket Space (\"Ticket Space\" or \"we\") and you (\"you\"). By using
+    or accessing any Ticket Space game or application (\"Service\") you agree to be
+    bound by these Terms. By accessing or using the Service, you agree that you have
+    read, understood, and accept to be bound by the Terms. Ticket Space reserves the
+    right, in its sole discretion, to modify or revise these Terms at any time, and
+    you agree to be bound by such modifications or revisions. If you do not agree
+    to the Terms, do not use the Service.\r\nUsers are responsible for periodically
+    viewing the Terms. Your continued use of the Service after a change or update
+    has been made will constitute your acceptance to the revised Terms. If you do
+    not agree to the Terms your only remedy is to discontinue your use of the Service
+    and cancel any accounts you have made using the Service.\r\nYou represent that
+    you are 10 years old or older. If you are between the ages of 10 and 18, you represent
+    that your legal guardian has reviewed and agrees to the Terms.\r\n1. Definition\r\nThe
+    following words and terms shall have the meanings set forth below when they are
+    used in the Terms of Service.\r\n1.1.\t\"Account(s)\" means a set of character
+    strings or any other marks issued by the Companies at the beginning of the use
+    of the Service for identifying a User. Among them, identifier(s) set by the Companies
+    based on User's application is referred to as \"User ID\".\r\n1.2.\"Content(s)\"means
+    information such as games, graphic, images, text, music, and the like that may
+    be accessed through the Service.\r\n1.3.\"Submitted Content(s)\"means content(s)that
+    Users have submitted, transmitted, or uploaded. \r\n1.4. \u201CCoins\u201D refers
+    to the virtual currency which Users may use to pay for playing a game. \r\n1.5.
+    \u201CTicket(s)\"refers to the virtual currency which is a reward of playing Ticket
+    Space\u2019s game and users may use to pay for shopping a real prize by Space
+    Shop of Ticket Space. \r\n1.6. \u201CS-Tikcet(s)\u201D refers to the virtual currency
+    which is received by Ticket Space and users may use to pay for shopping a real
+    prize by Space Shop of Ticket Space.\r\n1.7.\"Separate Terms and Conditions\"means
+    documents released or uploaded by the Company that pertain to the Service, under
+    the title\"agreement,\"\"guideline,\"\"policy,\"and the like.\r\n1.8. \"My shopping
+    list\" means service(s) offered to Users in the Service, which is not free of
+    charge (including but not limited to cases where service(s) or content(s) is exchanged
+    for In-Game Currency(ies) which is not free of charge).\r\n2. Modification of
+    the Terms \r\nThe Companies may modify the Terms or Separate Terms when the Companies
+    deem necessary, without providing prior notice to Users. The modification will
+    become effective once the modified Terms or Separate Terms are posted on an appropriate
+    location within the website operated by the Companies. Users shall be deemed to
+    have granted valid and irrevocable consent to the modified Terms and Conditions
+    or Separate Terms by continuing to use the Service. Users shall refer to the Terms
+    on a regular basis when using the Service, since a separate notification regarding
+    the modification to Terms may not be provided.\r\n3. Accountant \r\n3.1. Users,
+    when providing information about him/herself to the Companies, shall provide genuine,
+    accurate, and complete information while using the Service, and keep such information
+    up-to-date at all times.\r\n3.2. If Users register a password while using the
+    Service, Users shall exercise due care and responsibility in order for the password
+    not to be used in an unlawful manner. The Companies may treat all activities conducted
+    through a User's account as activities that have been conducted by the holder
+    of the account him/herself.\r\n3.3. When a User changes his or her communication
+    devices, the User may not continue to use on his or her new communication device
+    the data of In-Game Currencies, Submitted Content(s), or the like, in cases where
+    the User is using the Service without creating a User ID, or where there is no
+    function to set a User ID in the service.\r\n3.4. The Companies reserve the right
+    to delete any account that has been inactive for a period of a year or more since
+    its last activation, without any prior notice to the User.\r\n3.5. Users' rights
+    to use the service shall expire when their account has been deleted for any reason.\r\n3.6.
+    Each account in the Service is for the exclusive use and belongs solely to the
+    owner of the account. Users may not transfer or lend their accounts to any third
+    party nor may their accounts be inherited by any third party.\r\n4. Privacy\r\n4.1.
+    Ticket Space possesses and manages User's information collected through the Service
+    (hereinafter referred to as the 'User Information').\r\n4.2. The Companies place
+    their highest priority on the privacy of their Users.\r\n4.3. The Companies promise
+    to protect the privacy and personal information of their users in accordance with
+    the Ticket Space Privacy Policy.\r\n4.4. The Companies promise to exercise the
+    utmost care and attention regarding their security measures for the continued
+    security of any and all User Information.\r\n5. Provision of the Service\r\n5.1.
+    Users shall supply the necessary mobile phone device, communication device, operating
+    system, and data connection necessary for using the Service under Users' own responsibility
+    and at Users' own expense.\r\n5.2. The Companies reserve the right to limit access
+    to the whole or part of the Service depending upon conditions that the Companies
+    consider necessary, such as age, identification, current membership status, and
+    the like.\r\n5.3. The Companies reserve the right to modify or cease, at the Companies
+    own discretion, the whole or part of the Service at anytime without any prior
+    notice to the Users.\r\n5.4. In Paid Services, the Companies will not offer any
+    refund for cancelations by Users or any refund or reimbursement of In-Game Currencies
+    or any other fees. However, this does not apply if required by applicable laws.\r\n6.
+    Contents\r\n6.1. Users understand and agree that you may not distribute, sell,
+    transfer or license this content and/or application in any manner, in any country,
+    or on any social network or other medium without the explicit written permission
+    of Ticket Space. \r\n6.2. If Users wish to back-up the whole or part of the Submitted
+    Contents, they will need to do so themselves. The Companies will not undertake
+    the obligation of backing up any of the Submitted Contents.\r\n6.3. If the Companies
+    believe that the User has violated or may violate applicable laws or provisions
+    in the Terms and Conditions related to Submitted Contents, then the Companies
+    reserve the right to preclude the User's use of the Submitted Contents in certain
+    manners, such as deleting the Submitted Content without providing the User with
+    prior notice.\r\n7. Virtual Currencies and Real Prizes\r\n7.1 Virtual Currencies
+    include Coins, Tickets and S-Tickets.\r\n7.1. Coins can be purchased by users
+    from Ticket Space. Details regarding the payment methods, units, terms and all
+    other conditions regarding Coins will be decided by the Companies and displayed
+    accordingly upon the Service. \r\n7.2. Tickets received by Ticket Space\u2019s
+    games or rewards cannot purchase for paying. The Service may also include Real
+    Prize of Space Shop that may be purchased by Tickets. Tickets and Real Prizes
+    can never be redeemed for real money. \r\n7.3. Virtual Currencies cannot be exchanged
+    or used for any other purposes other than the ones offered by the Service. Virtual
+    Currencies will be decided by the Companies and displayed accordingly upon the
+    Service. \r\n7.4. Your purchase of Coin and/or Real Prize is final and is not
+    refundable, exchangeable, and transferable, except in Ticket Space's sole discretion.
+    \r\n7.5. You may not purchase, sell, or exchange Virtual Currencies and/or Real
+    Prize outside the Service. Doing so is a violation of the Terms and may result
+    in termination of your account with the Service and/or legal action.\r\n7.6 Ticket
+    Space retains the right to modify, manage, control and/or eliminate Virtual Currencies
+    and/or Real Prize at its sole discretion. Prices and availability of Real Prize
+    are subject to change without notice.\r\n8. Restrictions\r\nUsers shall not engage
+    in the following when using the Service.\r\n8.1. Activities that violate the law,
+    court verdicts, resolutions or orders, or administrative measures that are legally
+    binding.\r\n8.2. Activities that may hinder public order or customs.\r\n8.3. Activities
+    that infringe intellectual property rights, such as copyrights, trademarks and
+    patents, fame, privacy, and all other rights of the Companies and/or a third party
+    granted by the law or contract.\r\n8.4. Activities that post or transmit violent
+    or sexual expressions; expressions that lead to discrimination by race, national
+    origin, creed, sex, social status, family origin, etc.; expressions that induce
+    or encourage suicide, self-injury behavior, or drug abuse; or anti-social expressions
+    that include anti-social content and lead to the discomfort of others.\r\n8.5.
+    Activities that lead to the misrepresentation of the Companies and/or a third
+    party, or intentionally spread false information.\r\n8.6. Activities such as sending
+    messages indiscriminately to numerous Users (except for those approved by the
+    Companies), or any other activities deemed to be spamming by the Companies.\r\n8.7.
+    Activities that exchange the right to use the Contents into cash, property or
+    other economic benefits without Companies authorization.\r\n8.8. Activities that
+    use the Service for sales, marketing, advertisement, soliciting or other commercial
+    purposes (except for those approved by the Companies); use the Service for the
+    purpose of sexual conducts or obscene acts; use the Service for the purpose of
+    meeting a person for sexual encounters; use the Service for the purpose of harassments
+    or libelous attacks against other Users; or use the Service for purposes other
+    than the Service's true intent.\r\n8.9. Activities that benefit or collaborate
+    with anti-social groups.\r\n8.10. Activities that are related to religious activities
+    or invitations to certain religious groups.\r\n8.11. Activities that illegally
+    or improperly lead to the collection, disclosure, or provision of other's personal
+    information, registered information, user history, or the like.\r\n8.12. Activities
+    that interfere with the servers and/or network systems of the Service; that abuse
+    the Service by means of BOTs, cheat tools, or other technical measures; that deliberately
+    use defects of the Service; that access to the Service through the communication
+    devices to which an alteration has been made by looting, jail breaking, or the
+    like, that make unreasonable inquires and/or undue claims such as repeatedly asking
+    the same question beyond the necessity, and that interfere with the Companies\u2019
+    operation of the Service or Users' use of the Service.\r\n8.13. Activities that
+    aid or encourage any activity stated in Clauses 1 to 9 above.\r\n8.14. Other activities
+    that are deemed by the Companies to be inappropriate.\r\n9. User Responsibility\r\n9.1.
+    Users shall use this Service at his/her own risk, and shall bear all responsibility
+    for actions carried out and their results upon this Service.\r\n9.2. The Companies
+    may take the following measures without any prior notice to the User, if the Companies
+    acknowledge that a User is using the service in a way which violates the Terms.
+    However, the Companies shall not be responsible for correcting or preventing such
+    violation towards Users or others.\r\n9.3. In the case where the Companies have
+    suffered loss/damage or has been charged an expense (including but not limited
+    to lawyer's fees) directly or indirectly (including but not limited to cases where
+    the Companies has been sued for damages by a third party) due to the User violating
+    applicable laws or the Terms and Conditions while using the Service, the User
+    shall immediately compensate the Companies upon their request.\r\n10. The Companies
+    Exemption of Liability\r\nYou agree that your use of the Service shall be at your
+    sole risk. \r\nTicket Space makes no warranties or representations about the accuracy
+    or completeness of the content of the Service and of the content of any sites
+    linked to the Service; SWI assumes no liability or responsibility for any (i)
+    errors, mistakes, or inaccuracies of content, (ii) personal injury or property
+    damage, of any nature whatsoever, resulting from your access to and use of the
+    Service, (iii) any unauthorized access to or use of our secure servers and/or
+    any and all personal information and/or financial information stored therein,
+    (iv) any interruption or cessation of transmission to or from the Service, (v)
+    any bugs, viruses, trojan horses, or the like which may be transmitted to or through
+    the Service by any third party, and/or (vi) any errors or omissions in any content
+    or for any loss or damage of any kind incurred as a result of the use of any content
+    posted, emailed, transmitted, or otherwise made available via the Service.\r\nThe
+    Company shall not be responsible for (i) your use of and access to the Service;
+    (ii) your violation of any term of these Terms of Service; (iii) your violation
+    of any third party right, including without limitation any copyright, property,
+    or privacy right; (iv) any claim that one of your User Submissions caused damage
+    to a third party; or (v) any Content you post or share on or through the Service.\r\n11.
+    Notification and Contact\r\n11.1. When the Companies notify or contact Users regarding
+    the Service, the Companies may use a method that the Companies consider appropriate,
+    such as posting on the website operated by the Companies.\r\n11.2. When Users
+    notifies or contacts the Companies in regard to the Service, Users shall use the
+    customer inquiry form available on the website operated by the Companies or other
+    means designated by the Companies.\r\n12. Governing Law and Jurisdiction General\r\nBy
+    visiting or using the Service, you agree that the laws of South Korea, without
+    regard to principles of conflict of laws and regardless of your location, will
+    govern these Terms of Service and any dispute of any sort that might arise between
+    you and Ticket Space. Any claim or dispute between you and Ticket Space that arises
+    in whole or in part from your use of the Service shall be decided exclusively
+    by a court of competent jurisdiction located in South Korea, and you hereby consent
+    to, and waive all defenses of lack of personal jurisdiction and forum non conveniens
+    with respect to venue and jurisdiction in South Korea. Ticket Space reserves the
+    right to amend these Terms at any time and without notice, and it is your responsibility
+    to review these Terms for any changes. Your use of Ticket Space following any
+    amendment of these Terms of Service will signify your assent to and acceptance
+    of its revised terms.\r\n"
+  mFontSize: 20
+  mFontStyle: 0
+  mEncoding: 1
+  mMaxLineCount: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mOverflow: 3
+  mShrinkToFit: 0
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mLineWidth: 0
+  mMultiline: 1
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 3
+  style: 0
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  onFinished: []
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: 0}
+  to: {x: 0, y: 0, z: 180}
+--- !u!114 &11400010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a66f1c4dfe530a4fbcbe299dd25b06a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mLogin: {fileID: 0}
+  mTerms: {fileID: 0}
+  mstart: {fileID: 0}
+  m_inAcc: {fileID: 0}
+  m_inPass: {fileID: 0}
+--- !u!114 &11400012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mWidth: 541
+  mHeight: 301
+  mDepth: 1
+  autoResizeBoxCollider: 0
+  mAtlas: {fileID: 11400000, guid: 29d0f3ba9c04f5e4ca6e80ea37d8d09c, type: 2}
+  mSpriteName: l_content_bg
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+--- !u!114 &11400014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f02842fa4878db54f9587ff4de7d9f2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  draggablePanel: {fileID: 11400020}
+--- !u!114 &11400016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mColor: {r: .257352948, g: .147599488, b: .147599488, a: 1}
+  mPivot: 4
+  mWidth: 449
+  mHeight: 38
+  mDepth: 3
+  autoResizeBoxCollider: 0
+  keepCrispWhenShrunk: 1
+  mTrueTypeFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  mFont: {fileID: 0}
+  mText: Terms of Service
+  mFontSize: 29
+  mFontStyle: 1
+  mEncoding: 1
+  mMaxLineCount: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mOverflow: 0
+  mShrinkToFit: 0
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mLineWidth: 0
+  mMultiline: 1
+--- !u!114 &11400018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mColor: {r: .985294104, g: .806222439, b: .0579584725, a: 1}
+  mPivot: 4
+  mWidth: 254
+  mHeight: 49
+  mDepth: 2
+  autoResizeBoxCollider: 0
+  keepCrispWhenShrunk: 1
+  mTrueTypeFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  mFont: {fileID: 0}
+  mText: Mystery Block
+  mFontSize: 35
+  mFontStyle: 1
+  mEncoding: 1
+  mMaxLineCount: 0
+  mEffectStyle: 2
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mOverflow: 0
+  mShrinkToFit: 0
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mLineWidth: 0
+  mMultiline: 1
+--- !u!114 &11400020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d81807633ea807d4c8e3fff7e10c6000, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragEffect: 2
+  restrictWithinPanel: 1
+  disableDragIfFits: 1
+  smoothDragStart: 1
+  repositionClipping: 0
+  iOSDragEmulation: 1
+  scrollWheelFactor: -2
+  momentumAmount: 35
+  horizontalScrollBar: {fileID: 0}
+  verticalScrollBar: {fileID: 0}
+  showScrollBars: 0
+  scale: {x: 0, y: 1, z: 0}
+  relativePositionOnReset: {x: 0, y: 0}
+--- !u!114 &11400022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showInPanelTool: 1
+  generateNormals: 0
+  widgetsAreStatic: 1
+  cullWhileDragging: 0
+  worldToLocal:
+    e00: -568.096008
+    e01: 0
+    e02: 4.96645262e-05
+    e03: -14384.3018
+    e10: 0
+    e11: 568.096008
+    e12: 0
+    e13: 2561.95117
+    e20: -4.96645262e-05
+    e21: 0
+    e22: -568.095947
+    e23: 13449.8652
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  mAlpha: 1
+  mClipping: 3
+  mClipRange: {x: 0, y: 2255.30005, z: 700, w: 260}
+  mClipSoftness: {x: 10, y: 10}
+  mDepth: 40
+--- !u!114 &11400024
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f02842fa4878db54f9587ff4de7d9f2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  draggablePanel: {fileID: 11400042}
+--- !u!114 &11400026
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showInPanelTool: 1
+  generateNormals: 0
+  widgetsAreStatic: 1
+  cullWhileDragging: 0
+  worldToLocal:
+    e00: -568.096008
+    e01: 0
+    e02: 4.96645262e-05
+    e03: -14384.3018
+    e10: 0
+    e11: 568.096008
+    e12: 0
+    e13: 194.961304
+    e20: -4.96645262e-05
+    e21: 0
+    e22: -568.095947
+    e23: 13449.8652
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  mAlpha: 1
+  mClipping: 0
+  mClipRange: {x: 0, y: 0, z: 0, w: 0}
+  mClipSoftness: {x: 40, y: 40}
+  mDepth: 1
+--- !u!114 &11400028
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615dc3288c1eb0f498693742bd284a04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11400030
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenTarget: {fileID: 0}
+  hover: {r: .329411775, g: .262745112, b: .196078435, a: 1}
+  pressed: {r: .34117648, g: .278431386, b: .215686277, a: 1}
+  duration: .200000003
+  disabledColor: {r: .5, g: .5, b: .5, a: 1}
+  onClick: []
+--- !u!114 &11400032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mWidth: 214
+  mHeight: 58
+  mDepth: 2
+  autoResizeBoxCollider: 0
+  mAtlas: {fileID: 11400000, guid: 29d0f3ba9c04f5e4ca6e80ea37d8d09c, type: 2}
+  mSpriteName: btn_login_on
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+--- !u!114 &11400034
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showInPanelTool: 1
+  generateNormals: 0
+  widgetsAreStatic: 0
+  cullWhileDragging: 0
+  worldToLocal:
+    e00: -568.096008
+    e01: 0
+    e02: 4.96645262e-05
+    e03: -20951.0684
+    e10: 0
+    e11: 568.096008
+    e12: 0
+    e13: 1078.64355
+    e20: -4.96645262e-05
+    e21: 0
+    e22: -568.095947
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  mAlpha: 1
+  mClipping: 0
+  mClipRange: {x: 0, y: 0, z: 0, w: 0}
+  mClipSoftness: {x: 40, y: 40}
+  mDepth: 32
+--- !u!114 &11400036
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mWidth: 254
+  mHeight: 62
+  mDepth: 2
+  autoResizeBoxCollider: 0
+  keepCrispWhenShrunk: 1
+  mTrueTypeFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  mFont: {fileID: 0}
+  mText: U-Like corp
+  mFontSize: 30
+  mFontStyle: 1
+  mEncoding: 1
+  mMaxLineCount: 0
+  mEffectStyle: 2
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mOverflow: 0
+  mShrinkToFit: 0
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mLineWidth: 0
+  mMultiline: 1
+--- !u!114 &11400038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a66f1c4dfe530a4fbcbe299dd25b06a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mLogin: {fileID: 0}
+  mTerms: {fileID: 0}
+  mstart: {fileID: 0}
+  m_inAcc: {fileID: 0}
+  m_inPass: {fileID: 0}
+--- !u!114 &11400040
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mWidth: 640
+  mHeight: 1136
+  mDepth: 0
+  autoResizeBoxCollider: 0
+  mAtlas: {fileID: 11400000, guid: 29d0f3ba9c04f5e4ca6e80ea37d8d09c, type: 2}
+  mSpriteName: l_bg
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+--- !u!114 &11400042
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d81807633ea807d4c8e3fff7e10c6000, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragEffect: 2
+  restrictWithinPanel: 1
+  disableDragIfFits: 1
+  smoothDragStart: 1
+  repositionClipping: 0
+  iOSDragEmulation: 1
+  scrollWheelFactor: -2
+  momentumAmount: 35
+  horizontalScrollBar: {fileID: 0}
+  verticalScrollBar: {fileID: 0}
+  showScrollBars: 0
+  scale: {x: 0, y: 1, z: 0}
+  relativePositionOnReset: {x: 0, y: 0}
+--- !u!114 &11400044
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showInPanelTool: 1
+  generateNormals: 0
+  widgetsAreStatic: 1
+  cullWhileDragging: 0
+  worldToLocal:
+    e00: -568.181885
+    e01: 0
+    e02: 4.96720349e-05
+    e03: -14386.4756
+    e10: 0
+    e11: 568.181885
+    e12: 0
+    e13: 2941.57886
+    e20: -4.96720349e-05
+    e21: 0
+    e22: -568.181824
+    e23: 13451.8984
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  mAlpha: 1
+  mClipping: 3
+  mClipRange: {x: 0, y: 2255.30005, z: 700, w: 260}
+  mClipSoftness: {x: 10, y: 10}
+  mDepth: 40
+--- !u!114 &11400046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100036}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 3
+  style: 0
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  onFinished: []
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: 0}
+  to: {x: 0, y: 0, z: 180}
+--- !u!114 &11400048
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showInPanelTool: 1
+  generateNormals: 0
+  widgetsAreStatic: 1
+  cullWhileDragging: 0
+  worldToLocal:
+    e00: -568.181885
+    e01: 0
+    e02: 4.96720349e-05
+    e03: -14386.4756
+    e10: 0
+    e11: 568.181885
+    e12: 0
+    e13: 574.588867
+    e20: -4.96720349e-05
+    e21: 0
+    e22: -568.181824
+    e23: 13451.8984
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  mAlpha: 1
+  mClipping: 0
+  mClipRange: {x: 0, y: 0, z: 0, w: 0}
+  mClipSoftness: {x: 40, y: 40}
+  mDepth: 1
+--- !u!114 &11400050
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 0
+  mWidth: 470
+  mHeight: 4160
+  mDepth: 0
+  autoResizeBoxCollider: 0
+  keepCrispWhenShrunk: 1
+  mTrueTypeFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  mFont: {fileID: 0}
+  mText: "[Privacy Policy]\r\n1. Information We Collect\r\n- User accounts : You may
+    be required to open an account directly with Ticket Space by completing the registration
+    process and providing true, accurate, current and complete information about yourself.
+    \ Personal information may also be required to use or participate in certain Services,
+    such as registering for games, prize acceptance, customer support and/or technical
+    service requests, marketing surveys and email campaigns, product and service orders,
+    and requests from third party service providers. Information collected will vary
+    depending upon the activity and may include (1) account information (email ID),
+    (2) your profile (profile picture, game user name, and other biographic details
+    such as gender, birth year) (3) Shopping(Delivery) Information (your name, email
+    address, Mobile Phone number, phone number, home address, game user name(Nickname),
+    country information. You may also complete a user profile that can be viewed by
+    other users of the Services, which may include a profile picture, game user name(Nickname),
+    and other biographic details(gender, birth year) you provide.\r\n- Mobile devices
+    : Information collected from users of the Mobile Game App may include the mobile
+    phone number, the mobile device identifier, IP address, the name associated with
+    the device, the identity of the mobile carrier, the mobile phone model, country,
+    geo-location and email address.  We may create and assign an account number or
+    ID to your mobile device. You may allow us to send push notifications and local
+    notifications to your mobile device with game updates and other messages.  These
+    notifications can be adjusted on your mobile device settings or through the Mobile
+    Game App.\r\n- Social networking websites : The Services may be offered to you
+    through a social networking website through which you may access this Site.  You
+    may be able to use your user account or user ID from the social networking website.
+    \ By accessing or using a game, application, or activity on this Site, you may
+    be granting the social networking website permission to share your e-mail address
+    and any other personal information with us, including name, address, gender, age,
+    profile picture and information, occupation, hobbies, interests, and zip code.
+    When you access and use the Services through on a social networking website, we
+    may collect information regarding your use, as well as other information from
+    your social networking website profile in accordance with the website's terms
+    of use.  If we provide you the ability to import your address book contacts to
+    invite them to join you in using the Services, if you invite someone into your
+    social network , or if you send messages through the Services, we may also collect
+    and maintain the information associated with those messages, including your contact\u2019s
+    email address, ID number and any content. \r\n- Billing information : You may
+    be required to pay for certain Services, including an exchange for Virtual Tickets.
+    Current, complete, and accurate information for your billing account is required
+    and you must also promptly update all information, such as a change in billing
+    or shipping address, credit card number, or credit card expiration date.\r\n-
+    Content : You may make your personal information available when you are allowed
+    or invited to share or participate in games, blogs, message boards, online forums
+    and other functionality.  The Services may also provide you with the opportunity
+    to create, submit, post, display, transmit, perform, publish, distribute or broadcast
+    content and materials to Ticket Space Games and/or to or through this Site or
+    the Mobile Game App.  This may include text, writings, graphics, comments, forum
+    posts, chat posts, communications, messages, profiles, personally identifiable
+    information, suggestions, links, e-mails, music, sound, graphics, images, pictures,
+    video, software, technology, code and other material and information perceived,
+    made available, or emanating to and/or from the Services (collectively, \"Content\").
+    Content also includes any feedback, comments, or suggestions you may provide regarding
+    the Services, other Content, this Site, or the Mobile Game App, including any
+    responses provided through user surveys.\r\n2. Use of Information \r\nWe may use
+    information about you for various purposes, including to:\r\n-\tProvide, maintain
+    and improve our Services;\r\n-\tProvide and deliver the products and services
+    you request and send you related information, including confirmations and invoices;
+    \r\n-\tSend you communications about products, services, offers, promotions, rewards,
+    and events offered by Ticket Space and other companies, and provide news and information
+    we think will be of interest to you; \r\n-\tSend you technical notices, updates,
+    security alerts and support and administrative messages;\r\n-\tRespond to your
+    comments, questions and requests and provide customer service;\r\n-\tMonitor and
+    analyze trends, usage and activities in connection with our Services; \r\n-\tPersonalize
+    and improve the Services and provide advertisements, content, suggested connections
+    or features that match user profiles or activities; \r\n-\tProcess and deliver
+    contest entries and rewards;\r\n-\tLink or combine with information we get from
+    others to help understand your needs and provide you with better service; and\r\n-\tCarry
+    out any other purpose for which the information was collected.\r\n-\tTicket Space
+    is based in the South Korea and the information we collect is governed by South
+    Korea law.  By accessing or using the Services or otherwise providing information
+    to us, you consent to the processing and transfer of information in and to the
+    South Korea and other countries.\r\n3. Sharing Information \r\nWe will not share
+    or disclose your personal information to any third parties without your consent.
+    \ However, we may disclose information about you to third party contractors in
+    order to provide the Services, to resolve service problems, to correct errors
+    in the Services, to communicate with you, to provide you with advertising and
+    promotional information in connection with the Services, and to enhance your experience
+    on this Site or your mobile device.  Third party contractors may also use your
+    personal information to provide email delivery, product, prize or promotional
+    fulfillment, contest administration, credit card processing, shipping or other
+    Services.  When requesting these Services, you may be asked to provide your personal
+    information, including your name, mailing address, telephone number and email
+    address.  When the third party contractors have access to the personal information
+    that you provide to us, we require them to adhere to our privacy policies and
+    to protect the confidentiality of your personal information while performing their
+    duties for us. These third parties are prohibited from using your personal information
+    for any other purpose without your specific consent.\r\n4. Special Notice Regarding
+    Children Under 10 Years of Age\r\nThese Services are not aimed at nor intended
+    for children under the age of 10. If you are under the age of 10, please do not
+    use the Services, and if you are over the age of 10 but under the age of 18, you
+    should use the Services only with the and permission and/or supervision of a parent
+    or legal guardian. Our Services do not accept registration from children under
+    the age of 10. No personal information is purposefully or knowingly collected
+    from children under the age of 10 by Ticket Space. Parents are hereby put on notice
+    that as a result of the foregoing, Ticket Space does not provide a mechanism to
+    obtain parental consent. \r\nIf you are a parent or guardian who has discovered
+    that your child has submitted his or her personal information to Ticket Space,
+    Ticket Space will make commercially reasonable efforts to delete the information
+    from its database, at your request. To request the deletion of your child's information,
+    please send an email to (ticketspace-as@ulike.co.kr) and be sure to include in
+    your message the same member name and password that your child submitted. Your
+    use of the Services indicates that you hereby represent and warrant that all information
+    you provide, including but not limited to age, shall be truthful and correct.\r\n5.
+    Information Security\r\nThe security of your personal information is important
+    to us.  We follow generally accepted industry standards to protect the personal
+    information submitted to us, both during transmission and in storage. When you
+    send sensitive information (such as a credit card number) we encrypt that information
+    using secure socket layer technology (SSL).  However, no method of data transmission
+    over the Internet or method of electronic storage is 100% secure. Therefore, while
+    we strive to use commercially reasonable means to protect your personal information,
+    we cannot guarantee its absolute security.\r\n6. Changes to Privacy Policy\r\nWe
+    reserve the right to change this Privacy Policy in any way and at any time.  We
+    will attempt to give you advance notice of any change in this Privacy Policy by
+    posting on this Site or the Mobile Game App , or by sending a message informing
+    you of the modified terms with a link to the posting on this Site or the Mobile
+    Game App.  However, we reserve the right to make changes immediately, as determined
+    in our sole discretion.  You agree to periodically check this Site or the Mobile
+    Game App and to read any changes to this Privacy Policy.  Using our Services after
+    any changes to this Privacy Policy become effective constitutes your acceptance
+    of the new Privacy Policy.  If you do not agree to this Privacy Policy or any
+    future changes to this Privacy Policy, you do not have permission to use the Services
+    and you must immediately discontinue any further use of the Services.\r\n7. Contact
+    Us\r\nTicket Space AS Email: ticketspace-as@ulike.co.kr\r\n"
+  mFontSize: 20
+  mFontStyle: 0
+  mEncoding: 1
+  mMaxLineCount: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mOverflow: 3
+  mShrinkToFit: 0
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mLineWidth: 0
+  mMultiline: 1
+--- !u!114 &11400052
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mColor: {r: .257352948, g: .147599488, b: .147599488, a: 1}
+  mPivot: 4
+  mWidth: 449
+  mHeight: 38
+  mDepth: 3
+  autoResizeBoxCollider: 0
+  keepCrispWhenShrunk: 1
+  mTrueTypeFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  mFont: {fileID: 0}
+  mText: Privacy Statement
+  mFontSize: 29
+  mFontStyle: 1
+  mEncoding: 1
+  mMaxLineCount: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mOverflow: 0
+  mShrinkToFit: 0
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mLineWidth: 0
+  mMultiline: 1
+--- !u!114 &11400054
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mColor: {r: 0, g: 0, b: 0, a: 1}
+  mPivot: 4
+  mWidth: 214
+  mHeight: 58
+  mDepth: 3
+  autoResizeBoxCollider: 0
+  keepCrispWhenShrunk: 1
+  mTrueTypeFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  mFont: {fileID: 0}
+  mText: OK
+  mFontSize: 23
+  mFontStyle: 0
+  mEncoding: 1
+  mMaxLineCount: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mOverflow: 0
+  mShrinkToFit: 0
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mLineWidth: 0
+  mMultiline: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100028}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
